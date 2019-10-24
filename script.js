@@ -1,7 +1,8 @@
-var surname = ["sacchi", "speranza","neri", "bianchi","miele","ferrari",  "conte", "rossi","ferro", "sasso", ];
-console.log(surname);
+var starList = ["sacchi", "speranza","neri", "bianchi","miele","ferrari",  "conte", "rossi","ferro", "sasso", ];
+console.log(starList);
+var updateList = starList
 var mySurname = prompt("Your surname");
-console.log(mySurname);
+console.log(updateList);
 surname.push(mySurname);
 console.log(surname);
 surname.sort();
